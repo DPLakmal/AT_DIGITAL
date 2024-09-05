@@ -30,7 +30,7 @@ const FAQ = () => {
         Frequently asked questions
       </h1>
       {faqData.map((data) => (
-        <div key={data.id} className="flex flex-col mx-3 md:w-[846px] bg-[#FAF8FF] p-6 rounded-[7px] gap-6">
+        <div key={data.id} className="flex flex-col md:w-fit mx-3 lg:w-[846px] bg-[#FAF8FF] p-6 rounded-[7px] gap-6">
           <div className="flex justify-between items-center">
             <h2
               className={openFAQ === data.id ? 'text-[22px] font-[500] text-primary_color' : 'text-[22px] font-[500]'}

@@ -37,7 +37,7 @@ const Header = () => {
       {/* Mobile Menu */}
       <div
         className={`fixed inset-0 bg-white z-10 flex flex-col items-start p-5 transform transition-transform duration-500 ${
-          isMenuOpen ? 'translate-x-full' : '-translate-x-0'
+          !isMenuOpen ? 'translate-x-full' : '-translate-x-0'
         }`}
       >
         <div className="flex flex-row w-full  justify-between">

@@ -9,7 +9,7 @@ import FAQ from '../components/FAQ'
 
 const Home = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen w-full">
       <Header />
 
       {/* Container Section */}
@@ -43,7 +43,7 @@ const Home = () => {
           </div>
 
           {/* Body Part 02 */}
-          <div className="flex flex-col-reverse sm:flex-row md:flex-row items-center justify-center gap-[108px]">
+          <div className="flex flex-col-reverse sm:flex-row md:flex-row items-center justify-center lg:gap-[108px]">
             <div className="flex flex-col items-center sm:items-start gap-3 text-center sm:text-start">
               <h1 className="text-[27px] font-[600] text-primary_color">Digital Strategy Consulting</h1>
               <p>
